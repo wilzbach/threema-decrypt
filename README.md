@@ -14,7 +14,7 @@ __NEVER__ let your private key on a public computer. Keep it __private__!
 On a Debian-like system it should be as easy as:
 
 ```
-apt-get install sqlcipher sqlite
+sudo apt-get install sqlcipher sqlite
 ```
 
 0) Clone this repository
@@ -90,7 +90,7 @@ PRAGMA cipher_default_kdf_iter = 4000;PRAGMA key='x"your-key"';
 
 You can also encrypt the database. However if you plan to push it make to your
 device, I recommend you to use the previous approach and open it directly in
-sqlcipher.
+sqlcipher as you might loose your indexes by this procedure.
 
 ```
 ./encrypt.sh threema key.plain
