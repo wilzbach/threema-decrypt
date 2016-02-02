@@ -1,7 +1,10 @@
-__Warning__: The following procedures are unofficial and dangerous.
+__WARNING__: The following procedures are unofficial and dangerous.
 Be aware that you might break your Threema installation. 
 
-__NEVER__ let your private key on a public computer. Keep it __private__!
+__NEVER__ leave your private key on a public computer. Keep it __private__!
+
+_Update_: I wrote a short wrap [blog post](https://seb.wilzba.ch/b/2016/02/decrypting-threema/) 
+about my insights.
 
 0) Requirements
 ---------------
